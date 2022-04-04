@@ -4,7 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownLong  } from '@fortawesome/free-solid-svg-icons'
 
 class Intro extends  Component{
-  
+  scroll = (topTo) => {
+    window.scrollTo({ behavior: "smooth", top: topTo });
+  };
     render(){   
       return(
           <div className="intro">
@@ -15,10 +17,10 @@ class Intro extends  Component{
               Welcome to the Kayi tribe! 'Resurrection: Ertugrul' is a Turkish period drama that tells the story of the famous 13th-century warrior Ertugrul Bey, the father of Osman Gazi who would go on to establish the Ottoman Empire.
             </p>
           </div>
-          <button className="btn_down">
+          <button className="btn_down" onClick={() => this.scroll(670)}>
           <FontAwesomeIcon icon={faDownLong} />
           </button>
-          <canvas id="sand"></canvas>
+          {/* <canvas id="sand"></canvas> */}
         </div>
       )
     }
