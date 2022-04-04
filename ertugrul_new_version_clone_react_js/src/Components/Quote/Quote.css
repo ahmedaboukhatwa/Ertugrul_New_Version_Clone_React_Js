@@ -1,0 +1,17 @@
+body .quote {
+    transition: all 1s ease-in-out;
+    padding: 150px 140px;
+    text-align: center; }
+    body .quote .quote_content {
+      display: flex;
+      align-items: center; }
+      body .quote .quote_content svg {
+        color: #ebebff;
+        font-size: 150px; }
+      body .quote .quote_content p {
+        font-size: 25px; }
+    body .quote span {
+      font-size: 25px;
+      font-weight: bold; }
+      body.red .quote .quote_content i {
+        color: #f5ebeb; }

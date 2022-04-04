@@ -1,0 +1,83 @@
+body .warriors {
+  transition: all 1s ease-in-out;
+  background-color: #012a3e;
+  padding: 40px 140px;
+}
+body .warriors .warrior_active {
+  color: #ebebff;
+  display: flex;
+  margin: 15px 0;
+}
+body .warriors .warrior_active .warrior_img {
+  width: 40%;
+  height: 315px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+body .warriors .warrior_active .warrior_img img {
+  height: 100%;
+  width: 100%;
+}
+body .warriors .warrior_active .warrior_info {
+  width: 60%;
+  padding-left: 60px;
+}
+body .warriors .warrior_active .warrior_info span {
+  font-weight: bold;
+  font-size: 30px;
+}
+body .warriors .warriors_control {
+  display: flex;
+}
+body .warriors .warriors_control .visible_warriors {
+  width: 1500px;
+  height: 250px;
+  overflow: hidden;
+}
+body .warriors .warriors_control .visible_warriors .ul_warriors_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* width: 2106px; */
+  display: flex;
+  justify-content: space-between;
+}
+body .warriors .warriors_control .visible_warriors .ul_warriors_list .warrior {
+  height: 250px;
+  width: 300px;
+  overflow: hidden;
+  padding: 0 9px 0 0;
+}
+body
+  .warriors
+  .warriors_control
+  .visible_warriors
+  .ul_warriors_list
+  .warrior
+  img {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+body .warriors .warriors_control button {
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #c8bb82;
+  cursor: pointer;
+}
+body .warriors .warriors_control button svg {
+  color: #c8bb82;
+}
+body.red .warriors {
+  background-color: #551d26;
+}
+body.red .warriors .warrior_active {
+  color: #f5ebeb;
+}
+body.ar .warriors .warrior_active {
+  flex-direction: row-reverse;
+}
+body.ar .warriors .warrior_active .warrior_info {
+  padding-right: 60px;
+  text-align: end;
+}

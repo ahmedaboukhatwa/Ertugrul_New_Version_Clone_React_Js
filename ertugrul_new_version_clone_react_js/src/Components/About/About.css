@@ -1,0 +1,38 @@
+body .about {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    transition: all 1s ease-in-out;
+    height: 500px;
+    background-color: #ebebff;
+    padding: 50px 140px; }
+    body .about .about_wallpaper {
+      align-content: space-between;
+      position: absolute;
+      display: flex;
+      flex-wrap: wrap;
+      left: 0;
+      top: 0;
+      height: 100%; }
+      body .about .about_wallpaper .up_img {
+        width: 100%;
+        height: 90px; }
+      body .about .about_wallpaper .down_img {
+        width: 100%;
+        height: 90px;
+        transform: rotate(180deg); }
+    body .about .about_img {
+      width: 600px;
+      height: 400px; }
+      body .about .about_img img {
+        width: 100%;
+        height: 100%; }
+    body .about .about_info {
+      text-align: center;
+      width: 570px;
+      font-size: 22.5px; }
+  
+      body.red .about {
+        background-color: #f5ebeb; }
+        body.ar .about {
+          flex-direction: row-reverse; }      

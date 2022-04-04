@@ -1,0 +1,49 @@
+body .seasons {
+    display: flex;
+    justify-content: space-between;
+    transition: all 1s ease-in-out;
+    position: relative;
+    height: 500px;
+    background-color: #012a3e;
+    padding: 20px 140px;
+    overflow: hidden; }
+    body .seasons .seasons_wallpaper {
+      position: absolute;
+      height: 900px;
+      width: 900px;
+      left: -190px;
+      top: -245px;
+      transform: rotate(45deg); }
+    body .seasons .season {
+      width: 240px;
+      position: relative;
+      overflow: hidden;
+      transition: all 1s ease-in-out; }
+      body .seasons .season img {
+        position: absolute;
+        width: 100%;
+        height: 100%; }
+      body .seasons .season .season_info {
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: all 1s ease-in-out;
+        text-align: center;
+        color: white;
+        position: absolute;
+        height: 100%;
+        padding: 15px 5px;
+        top: 410px; }
+        body .seasons .season .season_info h2 {
+          font-weight: bold; }
+        body .seasons .season .season_info p {
+          height: 50px;
+          z-index: 555; }
+      body .seasons .season:hover .season_info {
+        top: 0; }
+        body.red .seasons {
+          background-color: #551d26; }
+          body.ar .seasons {
+            flex-direction: row-reverse; }
+            body.ar .seasons .seasons_wallpaper {
+              left: 770px;
+              top: -193px;
+              transform: rotate(60deg); }

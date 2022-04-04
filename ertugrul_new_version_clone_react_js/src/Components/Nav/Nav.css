@@ -1,0 +1,47 @@
+body nav {
+    background-color: #012a3e;
+    position: sticky;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px;
+    z-index: 999; }
+    body nav.active{
+      padding: 15px 140px;
+    }
+    body nav img {
+      width: 170px; }
+    body nav ul {
+      width: 480px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 19px;
+      margin: 0;
+      transform: translateX(142px); }
+      body nav ul li {
+        cursor: pointer;
+        list-style: none;
+        font-weight: bold; }
+    body nav select {
+      background-color: transparent;
+      color: white;
+      height: 32px;
+      width: 65px;
+      cursor: pointer; }
+      body nav select option {
+        color: #012a3e; }
+  
+        body.red nav {
+          background-color: #551d26; }
+          body.red nav select option {
+            color: #551d26; }
+            body.ar nav {
+              flex-direction: row-reverse; }
+              body.ar nav img {
+                width: 157px; }
+              body.ar nav ul {
+                flex-direction: row-reverse;
+                transform: translateX(-142px); }        

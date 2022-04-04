@@ -1,0 +1,85 @@
+body footer {
+    background-color: #202020;
+    padding: 20px 140px 45px 140px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative; }
+    body footer .logo {
+      width: 40%;
+      display: flex;
+      justify-content: space-between; }
+      body footer .logo img {
+        height: 110px;
+        width: 250px; }
+      body footer .logo ul {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        list-style: none; }
+    body footer .media {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      body footer .media span {
+        color: white; }
+      body footer .media ul {
+        display: flex;
+        padding: 0;
+        list-style: none; }
+        body footer .media ul li {
+          cursor: pointer;
+          color: white;
+          font-size: 40px;
+          margin: 20px; }
+    body footer .rights {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      padding: 15px 0;
+      background-color: #363534;
+      color: white;
+     }
+     body footer .rights span{
+        padding:0 140px;
+     }
+      body footer .rights span a {
+        color: white;
+        text-decoration: none; }
+        body.ar footer {
+          padding: 20px 140px 45px 140px;
+          flex-direction: row-reverse; }
+          body.ar footer .logo {
+            width: 40%;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between; }
+            body.ar footer .logo img {
+              height: 110px;
+              width: 250px; }
+            body.ar footer .logo ul {
+              display: flex;
+              flex-direction: column;
+              color: white;
+              list-style: none; }
+          body.ar footer .media {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center; }
+            body.ar footer .media span {
+              color: white; }
+            body.ar footer .media ul {
+              display: flex;
+              padding: 0;
+              list-style: none; }
+              body.ar footer .media ul li {
+                color: white;
+                font-size: 40px;
+                margin: 20px; }
+          body.ar footer .rights span {
+            float: right; }
+        

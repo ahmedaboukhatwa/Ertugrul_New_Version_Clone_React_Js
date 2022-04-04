@@ -1,0 +1,35 @@
+body .subscribe {
+    color: #012a3e;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 100px 140px; }
+    body .subscribe .subscribe_text {
+      gap: 3px; }
+      body .subscribe .subscribe_text span {
+        color: #c8bb82;
+        font-size: 37px; }
+      body .subscribe .subscribe_text p {
+        font-size: 30px; }
+    body .subscribe .subscribe_input {
+      display: flex;
+      height: 70px;
+      width: 700px; }
+      body .subscribe .subscribe_input input {
+        width: 90%;
+        border: 1px solid #012a3e;
+        outline: none; }
+      body .subscribe .subscribe_input button {
+        color: #ebebff;
+        background-color: #012a3e;
+        border: none;
+        outline: none;
+        width: 10%; }
+        body.red .subscribe {
+          color: #551d26; }
+          body.red .subscribe .subscribe_input input {
+            border: 1px solid #551d26; }
+          body.red .subscribe .subscribe_input button {
+            color: #f5ebeb;
+            background-color: #551d26; }

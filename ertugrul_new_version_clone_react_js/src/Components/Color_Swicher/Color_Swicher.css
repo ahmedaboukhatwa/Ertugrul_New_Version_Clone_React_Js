@@ -1,0 +1,30 @@
+body .color_swicher {
+    z-index: 9999;
+    position: fixed;
+    right: 0;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: self-end;
+    height: 101px;
+    width: 122px; }
+    body .color_swicher .blue_theme {
+      transition: all .5s ease-in-out;
+      height: 50px;
+      width: 70px;
+      background-color: #012a3e;
+      cursor: pointer; }
+    body .color_swicher .red_theme {
+      transition: all .5s ease-in-out;
+      height: 50px;
+      width: 70px;
+      background-color: #551d26;
+      cursor: pointer; }
+    body .color_swicher .active_theme {
+      width: 120px;
+      border: 1px solid  #c8bb82; }
+      
+body.ar .color_swicher {
+  left: 0;
+  align-items: self-start; }
