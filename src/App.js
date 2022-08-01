@@ -30,7 +30,7 @@ class App extends Component {
         {
           p: {
             en: " Welcome to the Kayi tribe! 'Resurrection: Ertugrul' is a Turkish period drama that tells the story of the famous 13th-century warrior Ertugrul Bey, the father of Osman Gazi who would go on to establish the Ottoman Empire.",
-            ar: "مرحباً بكم في قبيلة القايي! مسلسل 'قيامة أرطغرل' هو عرض درامي تركي لفترة تاريخية، يروي قصة المحارب الشهير أرطغرل بك الذي عاش في القرن الثالث عشر، والد عثمان بك مؤسس الإمبراطورية العثمانية.",
+            ar: "مرحباً بكم في قبيلة الكايي! مسلسل 'قيامة أرطغرل' هو عرض درامي تركي لفترة تاريخية، يروي قصة المحارب الشهير أرطغرل بك الذي عاش في القرن الثالث عشر، والد عثمان بك مؤسس الإمبراطورية العثمانية.",
           },
         },
       ],
@@ -70,7 +70,7 @@ class App extends Component {
         {
           span:{
             en:`THE STORY OF THE<h2>KAYI TRIBE</h2>`,
-            ar:`قصة  <h2>قبيلة القايي </h2> `
+            ar:`قصة  <h2>قبيلة الكايي </h2> `
           },
           p:{
             en:`  Set in Anatolia (modern-day Turkey), the nomadic Kayi tribe of the
@@ -81,7 +81,7 @@ class App extends Component {
             strength and bravery, Ertugrul consequently plants the seed that would
             lead to the founding of the Ottoman Empire, which spread across three
             continents and ruled for six centuries.`,
-            ar:`على أراضي الأناضول (تركيا حديثاً)، تسعى قبيلة القايي من أتراك الأغوز إلى إيجاد موطن لها ينهي آلامها وتنقلاتها المستمرة. يقود أرطغرل القبيلة في سبيل ذلك متحدياً الصعاب وساعياً لتحقيق العدالة والحفاظ على على تقاليد قبيلته. بعد الانتصار على أعدائه بقوة وشجاعة، يزرع أرطغرل البذور التي ستؤدي إلى نشأة الإمبراطورية العثمانية التي امتدت عبر ثلاث قارات وحكمت لستة قرون.
+            ar:`على أراضي الأناضول (تركيا حديثاً)، تسعى قبيلة الكايي من أتراك الأغوز إلى إيجاد موطن لها ينهي آلامها وتنقلاتها المستمرة. يقود أرطغرل القبيلة في سبيل ذلك متحدياً الصعاب وساعياً لتحقيق العدالة والحفاظ على على تقاليد قبيلته. بعد الانتصار على أعدائه بقوة وشجاعة، يزرع أرطغرل البذور التي ستؤدي إلى نشأة الإمبراطورية العثمانية التي امتدت عبر ثلاث قارات وحكمت لستة قرون.
             `,
           }
         }
@@ -98,7 +98,7 @@ class App extends Component {
             tribe. But the new arrivals cause problems for the tribe's leader
             Suleyman Shah. He dispatches Ertugrul on a mission to find new land
             and seek an agreement with the Sultan in Aleppo.`,
-            ar:`بينما كان أرطغرل في إحدى جولات الصيد مع جنوده، قام بإنقاذ حليمة سلطان، ووالدها، وأخاها من فرسان المعبد، وأحضرهم إلى مقر قبيلة القايي، ما تسبب في استشاطة فرسان المعبد غضباً على زعيم القبيلة سليمان شاه والذي قرر بعدها إرسال ابنه أرطغرل إلى حلب في مهمة للبحث عن موطن جديد للقبيلة`,
+            ar:`بينما كان أرطغرل في إحدى جولات الصيد مع جنوده، قام بإنقاذ حليمة سلطان، ووالدها، وأخاها من فرسان المعبد، وأحضرهم إلى مقر قبيلة الكايي، ما تسبب في استشاطة فرسان المعبد غضباً على زعيم القبيلة سليمان شاه والذي قرر بعدها إرسال ابنه أرطغرل إلى حلب في مهمة للبحث عن موطن جديد للقبيلة`,
           }
         },
         {
@@ -238,7 +238,7 @@ class App extends Component {
         img: "images/warriors/GUNDOGDU.jpg",
         info:{
           en:  "The eldest son of Suleyman Shah, Gundogdu, aspires to be the leader of the Kayi tribe after his father. Patience is his most significant virtue, and his biggest weakness is to get influenced by the people he values.",
-          ar:"غوندوغدو، الابن الأكبر لسليمان شاه، يطمح أن يصبح زعيماً لقبيلة القايي بعد والده. وبالرغم من تحليه بالصبر، إلا أن نقطة ضعفه تكمن في سرعة تأثره بالناس حوله، وخصوصاً المقربين منهم",
+          ar:"غوندوغدو، الابن الأكبر لسليمان شاه، يطمح أن يصبح زعيماً لقبيلة الكايي بعد والده. وبالرغم من تحليه بالصبر، إلا أن نقطة ضعفه تكمن في سرعة تأثره بالناس حوله، وخصوصاً المقربين منهم",
         } 
       },
       {
@@ -256,7 +256,7 @@ class App extends Component {
         img: "images/warriors/SULEYMAN SHAH.jpg",
         info: {
           en:"The leader of the Kayi tribe, Suleyman Shah, is a wise leader who represents the traditions of his people. He is a merciful father but is willing to take harsh measures for the good of his people and the sake of justice.",
-          ar:"سليمان شاه، سيد قبيلة القايي، وزعيم حكيم يمثل تقاليد قبيلته. أبٌ رحيم، ولكنه لا يتردد في اتخاذ القرارات أو العقوبات الصارمة التي تصب في مصلحة شعبه وفي سبيل تحقيق العدالة",
+          ar:"سليمان شاه، سيد قبيلة الكايي، وزعيم حكيم يمثل تقاليد قبيلته. أبٌ رحيم، ولكنه لا يتردد في اتخاذ القرارات أو العقوبات الصارمة التي تصب في مصلحة شعبه وفي سبيل تحقيق العدالة",
         }
       },
       {
@@ -265,7 +265,7 @@ class App extends Component {
         img: "images/warriors/DELI DEMIR.jpg",
         info: {
           en:"A skilled bladesmith, an expert storyteller, a caring father and a loyal friend, Deli Demir always stands by Ertugrul and his companions in their most difficult moments.",
-          ar:"ديلي دمير، أحد أسياد قبيلة القايي، وماهر في صناعة السيوف والدروع. مبارز بارع، يقف دائماً مع أرطغرل في قراراته، وخصوصاً في الأوقات الحرجة",
+          ar:"ديلي دمير، أحد أسياد قبيلة الكايي، وماهر في صناعة السيوف والدروع. مبارز بارع، يقف دائماً مع أرطغرل في قراراته، وخصوصاً في الأوقات الحرجة",
         }
       },
     ],
