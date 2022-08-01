@@ -61,7 +61,7 @@ class App extends Component {
             },
             {
               en:"Subscribe",
-              ar:"اشتراك",
+              ar:"إشتراك",
             },
           ],
         }
